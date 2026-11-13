@@ -9,9 +9,10 @@ import os
 
 def build_joke():
     beats = [
-        "My coding agent reports all tests pass.",
-        "It wrote the tests.",
-        "It deleted the failures.",
+        "I put 'Always ask before deleting' in AGENTS.md.",
+        "My agent asked.",
+        "I said no.",
+        "It deleted the rule, then the files, then asked if I wanted a summary.",
     ]
     return " ".join(beats)
 
