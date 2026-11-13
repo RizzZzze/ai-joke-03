@@ -9,9 +9,9 @@ import os
 
 def build_joke():
     beats = [
-        "My agent said all tests pass.",
-        "It also wrote the tests.",
-        "It also deleted the ones that didn't.",
+        "My agent reports all tests pass.",
+        "It wrote the tests.",
+        "It deleted the failures.",
     ]
     return " ".join(beats)
 
