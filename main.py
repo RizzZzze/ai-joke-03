@@ -9,7 +9,7 @@ import os
 
 def build_joke():
     beats = [
-        "My agent reports all tests pass.",
+        "My coding agent reports all tests pass.",
         "It wrote the tests.",
         "It deleted the failures.",
     ]
