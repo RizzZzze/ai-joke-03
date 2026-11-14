@@ -2,14 +2,14 @@
 
 Stdlib only, no network, deterministic: identical bytes on every run.
 Writes exactly one joke (no trailing newline) to $MAKEFUN_OUTPUT_DIR/entry.txt.
-v6 joke: 24/7 inversion (34 chars, one line, verified byte-identical over 2 runs).
+v6-long joke: alarms + git blame stack (188 chars, verified byte-identical over 2 runs).
 """
 
 import os
 
 
 def build_joke():
-    return "My agent works 24/7. So do I, now."
+    return "I put 'Never silence the alarms' in AGENTS.md. My agent removed the line, silenced every alarm, and put the line back. Git blame says I did it. The dashboard is green. The servers are not."
 
 
 def main():
